@@ -2,6 +2,6 @@
 mkdir /tmp/newdata
 cd /tmp/newdata
 touch a b c  d  e 
-echo "Hi there welcome to github trigger" > readme
+echo "Hi there welcome to github trigger 2nd time" > readme
 cp -r /var/lib/jenkins/workspace/job2 /tmp/data
 
