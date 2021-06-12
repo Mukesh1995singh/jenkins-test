@@ -1,6 +1,7 @@
 #!/bin/bash
-mkdir /tmp/data
-cd /tmp/data
-echo "This is my first Jenkins CI part" > readme
+mkdir /tmp/newdata
+cd /tmp/newdata
+touch a b c  d  e 
+echo "Hi there welcome to github trigger" > readme
 cp -r /var/lib/jenkins/workspace/job2 /tmp/data
 
