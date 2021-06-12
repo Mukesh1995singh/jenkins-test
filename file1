@@ -2,5 +2,5 @@
 mkdir /tmp/data
 cd /tmp/data
 echo "This is my first Jenkins CI part" > readme
-cd -r /var/lib/jenkins/workspace/job2 /tmp/data
+cp -r /var/lib/jenkins/workspace/job2 /tmp/data
 
